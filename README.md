@@ -14,3 +14,7 @@ https://wokwi.com/projects/334440053872788052
 
 SERVO METER
 https://wokwi.com/projects/334976238758134354
+
+
+sevometer controlled by potentiometer
+https://wokwi.com/projects/334977575166149202
