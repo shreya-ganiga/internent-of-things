@@ -34,3 +34,6 @@ https://wokwi.com/projects/335069682709037651
 
 **BUZZER WITH ULTRASONIC SENSOR**
 https://wokwi.com/projects/335072529533108819
+
+**BUZZER WITH DIFFERENT SOUNDS**
+https://wokwi.com/projects/335066652092662356
