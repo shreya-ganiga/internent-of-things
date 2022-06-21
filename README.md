@@ -25,3 +25,6 @@ https://wokwi.com/projects/334980038617203283
 
 **ULTRASONIC SERVOMETER**
 https://wokwi.com/projects/334981244350628435
+
+**BUZZER**
+https://wokwi.com/projects/335067360088031827
