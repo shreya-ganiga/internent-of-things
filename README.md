@@ -27,7 +27,7 @@ https://wokwi.com/projects/334980038617203283
 https://wokwi.com/projects/334981244350628435
 
 **BUZZER**
-https://wokwi.com/projects/335067360088031827
+https://wokwi.com/projects/335071080345502291
 
 **BUZZER WITH BUTTON**
 https://wokwi.com/projects/335069682709037651
