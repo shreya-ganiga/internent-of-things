@@ -31,3 +31,6 @@ https://wokwi.com/projects/335071080345502291
 
 **BUZZER WITH BUTTON**
 https://wokwi.com/projects/335069682709037651
+
+**BUZZER WITH ULTRASONIC SENSOR**
+https://wokwi.com/projects/335072529533108819
