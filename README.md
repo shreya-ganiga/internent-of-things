@@ -67,3 +67,5 @@ https://wokwi.com/projects/335072529533108819
 
 **BUZZER WITH DIFFERENT SOUNDS**
 https://wokwi.com/projects/335066652092662356
+buzzer with led
+https://wokwi.com/projects/335613483142873684
