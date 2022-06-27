@@ -6,7 +6,7 @@ https://wokwi.com/projects/333797944251646547
 4.tempature & humadity sensor :
 https://wokwi.com/projects/334347223081943635
 
-INFROMATION
+INFORMATION
 
 https://arduinogetstarted.com/tutorials/arduino-temperature-humidity-sensor
 
