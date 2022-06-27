@@ -14,7 +14,7 @@ https://arduinogetstarted.com/tutorials/arduino-temperature-humidity-sensor
 
 :https://wokwi.com/projects/334343126477963859
 
-INFROMATION
+INFORMATION
 https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
 
 6.PIR
