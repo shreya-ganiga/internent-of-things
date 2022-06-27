@@ -21,7 +21,7 @@ https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
 
 https://wokwi.com/projects/334345672871379538
 
-INFROMATION
+INFORMATION
 
 https://create.arduino.cc/projecthub/biharilifehacker/arduino-with-pir-motion-sensor-fd540a
 
