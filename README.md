@@ -12,6 +12,8 @@ INFROMATION https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc
 https://wokwi.com/projects/334345672871379538
 INFROMATION
 https://create.arduino.cc/projecthub/biharilifehacker/arduino-with-pir-motion-sensor-fd540a
+**IR sensor**
+https://wokwi.com/projects/334347798007775826
 
 **BLINK LED**
 https://wokwi.com/projects/334432141665370707**
