@@ -1,75 +1,74 @@
 # internent-of things
-https://wokwi.com/projects/333796636268429907
+1.https://wokwi.com/projects/333796636268429907
 
-https://wokwi.com/projects/333797944251646547
+2.https://wokwi.com/projects/333797944251646547
 
-4.tempature & humadity sensor :
+3.tempature & humadity sensor :
 https://wokwi.com/projects/334347223081943635
 
 INFORMATION
 
 https://arduinogetstarted.com/tutorials/arduino-temperature-humidity-sensor
 
-5.ulaTRA SONIC
+4.ulaTRA SONIC
 
 :https://wokwi.com/projects/334343126477963859
 
 INFORMATION
 https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
 
-6.PIR
-
+5.PIR
 https://wokwi.com/projects/334345672871379538
 
 INFORMATION
-
 https://create.arduino.cc/projecthub/biharilifehacker/arduino-with-pir-motion-sensor-fd540a
 
-**IR sensor**
-
+** 6.IR sensor**
 https://wokwi.com/projects/334347798007775826
 
-**BLINK LED**
+** 7.BLINK LED**
 https://wokwi.com/projects/334432141665370707**
 
-**BUTTON LED**
+** 8.BUTTON LED**
 https://wokwi.com/projects/334434511819375186
 
-**LED FADE**
+** 9.LED FADE**
 https://wokwi.com/projects/334436844701745746
 
-**ULTRASONIC LED**
+** 10.ULTRASONIC LED**
 
 https://wokwi.com/projects/334440053872788052
 
-**SERVOMETER**
+** 11.SERVOMETER**
 https://wokwi.com/projects/334976238758134354
 
 
-**SERVOMETER CONTROLLED BY POTENTIOMETER**
+** 12.SERVOMETER CONTROLLED BY POTENTIOMETER**
 
 https://wokwi.com/projects/334977575166149202
 
-**BUTTON SERVOMETER**
+** 13.BUTTON SERVOMETER**
 https://wokwi.com/projects/334980038617203283
 
-**ULTRASONIC SERVOMETER**
+** 14.ULTRASONIC SERVOMETER**
 https://wokwi.com/projects/334981244350628435
 
-**BUZZER**
+** 15.BUZZER**
 https://wokwi.com/projects/335071080345502291
 
-**BUZZER WITH BUTTON**
+** 16.BUZZER WITH BUTTON**
 https://wokwi.com/projects/335069682709037651
 
-**BUZZER WITH ULTRASONIC SENSOR**
+** 17.BUZZER WITH ULTRASONIC SENSOR**
 https://wokwi.com/projects/335072529533108819
 
-**BUZZER WITH DIFFERENT SOUNDS**
+** 18.BUZZER WITH DIFFERENT SOUNDS**
 https://wokwi.com/projects/335066652092662356
 
-buzzer with led
+19.buzzer with led
 https://wokwi.com/projects/335613483142873684
 
 20.buzzer with ultrasonic for 20cm
 https://wokwi.com/projects/335613396042908243
+21.potentiometer
+https://wokwi.com/projects/335701896674148948
