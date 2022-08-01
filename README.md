@@ -68,14 +68,17 @@ https://wokwi.com/projects/335066652092662356
 19.buzzer with led
 https://wokwi.com/projects/335613483142873684
 
-20.buzzer with ultrasonic for 20cm
-https://wokwi.com/projects/335613396042908243
-21.potentiometer
-https://wokwi.com/projects/335701896674148948
+20.buzzer with ultrasonic for 20cm<br>
+https://wokwi.com/projects/335613396042908243<br>
+
+21.potentiometer<br>
+https://wokwi.com/projects/335701896674148948<br>
 
 22.potentiometer with led<br>
 https://wokwi.com/projects/335703061675639379<br>
+
 23.DHT22 temperature and humidity sensor<br>
  https://wokwi.com/projects/338147082096345683 <br>
+ 
  24.-DHT22+LCD(humidity sensor and temperature) <br>
 https://wokwi.com/projects/338154081559249491 <br>
