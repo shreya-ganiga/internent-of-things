@@ -77,4 +77,5 @@ https://wokwi.com/projects/335701896674148948
 https://wokwi.com/projects/335703061675639379<br>
 23.DHT22 temperature and humidity sensor<br>
  https://wokwi.com/projects/338147082096345683 <br>
- 24.
+ 24.-DHT22+LCD(humidity sensor and temperature) <br>
+https://wokwi.com/projects/338154081559249491 <br>
