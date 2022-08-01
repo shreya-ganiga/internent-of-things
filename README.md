@@ -75,3 +75,5 @@ https://wokwi.com/projects/335701896674148948
 
 22.potentiometer with led
 https://wokwi.com/projects/335703061675639379
+23.
+ https://wokwi.com/projects/338147082096345683 :-
