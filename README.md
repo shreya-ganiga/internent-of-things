@@ -82,3 +82,63 @@ https://wokwi.com/projects/335703061675639379<br>
  
  24.-DHT22+LCD(humidity sensor and temperature) <br>
 https://wokwi.com/projects/338154081559249491 <br>
+LAB LIST
+1.https://wokwi.com/projects/338225981441442386 :-ESP32(LED/Buzzer)<br>
+2.https://wokwi.com/projects/338770823644971603 :-Arduino(LED/BUZZER)<br>
+
+3. https://wokwi.com/projects/338147082096345683 :-DHT22 ( humidity sensor and temperature).<br>
+
+5. https://wokwi.com/projects/338154081559249491 :-DHT22+LCD(humidity sensor and temperature)<br>
+
+
+**HARDWARE**
+**IR SENSOR**
+int ir=D5;
+int led=D6; void setup() {
+// put your setup code here, to run once:
+pinMode(ir,INPUT);
+pinMode(led,OUTPUT);
+Serial.begin(9600);
+}
+
+void loop() {
+// put your main code here, to run repeatedly:
+int irvalue=digitalRead(ir);
+if(irvalue==LOW)
+{
+Serial.println("LOW");
+digitalWrite(led,HIGH);
+}
+else
+{
+Serial.println("HIGH");
+digitalWrite(led,LOW);
+}
+delay(100);
+}
+
+image
+
+Chassing LED
+int pinsCount=7; // declaring the integer variable pinsCount
+int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]
+
+void setup() {
+for (int i=0; i<pinsCount; i=i+1){ // counting the variable i from 0 to 9
+pinMode(pins[i], OUTPUT); // initialising the pin at index i of the array of pins as OUTPUT
+}
+}
+void loop() {
+for (int i=0; i<pinsCount; i=i+1){ // chasing right
+digitalWrite(pins[i], HIGH); // switching the LED at index i on
+delay(100); // stopping the program for 100 milliseconds
+digitalWrite(pins[i], LOW); // switching the LED at index i off
+}
+for (int i=pinsCount-1; i>0; i=i-1){ // chasing left (except the outer leds)
+digitalWrite(pins[i], HIGH); // switching the LED at index i on
+delay(100); // stopping the program for 100 milliseconds
+digitalWrite(pins[i], LOW); // switching the LED at index i off
+
+}
+}
+
