@@ -316,6 +316,8 @@ int ldr=A0;//Set A0(Analog Input) for LDR.<br>
    delay(1000);<br>
  }<br>
 **flood monitoring system link:-**<br>
-https://theiotprojects.com/iot-based-flood-monitoring-system-using-nodemcu-thingspeak/<br>
+https://theiotprojects.com/iot-based-flood-monitoring-system-using-nodemcu-thingsp<br>
+wifi<br>
+https://wokwi.com/projects/321525495180034642<br>
 
 
