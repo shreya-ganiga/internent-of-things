@@ -141,4 +141,7 @@ digitalWrite(pins[i], LOW); // switching the LED at index i off<br>
 
 }<br>
 }<br>
+**LDR**
+![image](https://user-images.githubusercontent.com/98379636/185889633-7aaf0245-5ab3-48d3-907f-2725ad39544e.png)
+
 
