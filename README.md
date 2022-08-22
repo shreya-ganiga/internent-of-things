@@ -143,5 +143,179 @@ digitalWrite(pins[i], LOW); // switching the LED at index i off<br>
 }<br>
 **LDR**
 ![image](https://user-images.githubusercontent.com/98379636/185889633-7aaf0245-5ab3-48d3-907f-2725ad39544e.png)
+ #include <Adafruit_Sensor.h>
+    #include <DHT.h>;
+    #define DHTPIN 13     // what pin we're connected to
+    #define DHTTYPE DHT11   // DHT 22  (AM2302)
+    DHT dht(DHTPIN, DHTTYPE); //// Initialize DHT sensor for normal 16mhz Arduino
+    //Variables
+    int chk;
+    float hum;  //Stores humidity value
+    float temp; //Stores temperature value
+    void setup()
+    {
+      Serial.begin(9600);
+      dht.begin();
+    }
+    void loop()
+   {
+       delay(2000);
+       //Read data and store it to variables hum and temp
+       hum = dht.readHumidity();
+       temp= dht.readTemperature();
+       //Print temp and humidity values to serial monitor
+       Serial.print("Humidity: ");
+       Serial.print(hum);
+       Serial.print(" %, Temp: ");
+       Serial.print(temp);
+       Serial.println(" Celsius");
+       delay(1000); //Delay 2 sec.
+   }
+   
+   **IR SENSOR:-**
+  **................**
+int ir=D7;
+int led=D6;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(ir,INPUT);
+    pinMode(led,OUTPUT);
+    Serial.begin(9600);
+    
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int irvalue=digitalRead(ir);
+  if(irvalue==LOW)
+  {
+    Serial.println("LOW");
+    digitalWrite(led,HIGH);
+  }
+  else
+  {
+    Serial.println("HIGH");
+    digitalWrite(led,LOW);
+  }
+delay(100);
+}
+**ultra sonic:-**
+**.....................**
+const int trigPin = 13; //D7
+   const int echoPin = 12; //D6
+
+   long duration;
+   float distanceCm;
+   float distanceInch;
+
+   void setup() {
+           Serial.begin(9600); // Starting Serial Terminal
+   }
+
+   void loop() {
+      long duration, inches, cm;
+      pinMode(trigPin, OUTPUT);
+      digitalWrite(trigPin, LOW);
+      delayMicroseconds(2);
+      digitalWrite(trigPin, HIGH);
+      delayMicroseconds(10);
+      digitalWrite(trigPin, LOW);
+      pinMode(echoPin, INPUT);
+      duration = pulseIn(echoPin, HIGH);
+      inches = microsecondsToInches(duration);
+      cm = microsecondsToCentimeters(duration);
+      Serial.print(inches);
+      Serial.print("in, ");
+      Serial.print(cm);
+      Serial.print("cm");
+      Serial.println();
+      delay(1000);
+   }
+
+   long microsecondsToInches(long microseconds) {
+       return microseconds / 74 / 2;
+   }
+
+  long microsecondsToCentimeters(long microseconds) {
+    return microseconds / 29 / 2;
+   }
+**RGB:-**
+**................**
+ int red = D1;
+int green = D6;
+int blue = D7;
+//GROUND IS CONNECTED TO 3V
+void setup() {
+pinMode(red, OUTPUT);
+pinMode(green, OUTPUT);
+pinMode(blue, OUTPUT);
+
+}
+
+void loop() {
+displayColor(0b100); //RED
+delay(1000);
+displayColor(0b010); //GREEN
+delay(1000);
+displayColor(0b001); //BLUE
+delay(1000);
+displayColor(0b101); //MAGENTA
+delay(1000);
+displayColor(0b011); //CYAN
+delay(1000);
+displayColor(0b110); //YELLOW
+delay(1000);
+displayColor(0b111); //WHITE
+delay(1000);
+}
+
+void displayColor(byte color) {
+digitalWrite(red, !bitRead(color, 2));
+digitalWrite(green, !bitRead(color, 1));
+digitalWrite(blue, !bitRead(color, 0));
+}
+**LDR:-**
+**...................**
+const int ldrPin=A0;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  pinMode(ldrPin,INPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int rawData=analogRead(ldrPin);
+  Serial.println(rawData);
+  delay(1000);
+}
+LDR WITH LED:-
+........................................
+int ldr=A0;//Set A0(Analog Input) for LDR.
+ int value=0;
+ int led=D4;
+ void setup() {
+ Serial.begin(9600);
+ pinMode(led,OUTPUT);
+ }
+
+ void loop() {
+ value=analogRead(ldr);//Reads the Value of LDR(light).
+ Serial.println("LDR value is :");//Prints the value of LDR to Serial Monitor.
+ Serial.println(value);
+ if(value<50)
+   {
+     digitalWrite(led,HIGH);//Makes the LED glow in Dark.
+   }
+   else
+   {
+     digitalWrite(led,LOW);//Turns the LED OFF in Light.
+   }
+   delay(1000);
+ }
+**flood monitoring system link:-**
+https://theiotprojects.com/iot-based-flood-monitoring-system-using-nodemcu-thingspeak/
 
 
