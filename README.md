@@ -93,52 +93,52 @@ LAB LIST
 
 **HARDWARE**
 **IR SENSOR**
-int ir=D5;
-int led=D6; void setup() {
-// put your setup code here, to run once:
-pinMode(ir,INPUT);
-pinMode(led,OUTPUT);
-Serial.begin(9600);
-}
+int ir=D5;<br>
+int led=D6; void setup() {<br>
+// put your setup code here, to run once:<br>
+pinMode(ir,INPUT);<br>
+pinMode(led,OUTPUT);<br>
+Serial.begin(9600);<br>
+}<br>
 
-void loop() {
-// put your main code here, to run repeatedly:
-int irvalue=digitalRead(ir);
-if(irvalue==LOW)
-{
-Serial.println("LOW");
-digitalWrite(led,HIGH);
-}
-else
-{
-Serial.println("HIGH");
-digitalWrite(led,LOW);
-}
-delay(100);
-}
+void loop() {<br>
+// put your main code here, to run repeatedly:<br>
+int irvalue=digitalRead(ir);<br>
+if(irvalue==LOW)<br>
+{<br>
+Serial.println("LOW");<br>
+digitalWrite(led,HIGH);<br>
+}<br>
+else<br>
+{<br>
+Serial.println("HIGH");<br>
+digitalWrite(led,LOW);<br>
+}<br>
+delay(100);<br>
+}<br>
 
 image
 
-Chassing LED
-int pinsCount=7; // declaring the integer variable pinsCount
-int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]
+Chassing LED<br>
+int pinsCount=7; // declaring the integer variable pinsCount<br>
+int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]<br>
 
-void setup() {
-for (int i=0; i<pinsCount; i=i+1){ // counting the variable i from 0 to 9
-pinMode(pins[i], OUTPUT); // initialising the pin at index i of the array of pins as OUTPUT
-}
-}
-void loop() {
-for (int i=0; i<pinsCount; i=i+1){ // chasing right
-digitalWrite(pins[i], HIGH); // switching the LED at index i on
-delay(100); // stopping the program for 100 milliseconds
-digitalWrite(pins[i], LOW); // switching the LED at index i off
-}
-for (int i=pinsCount-1; i>0; i=i-1){ // chasing left (except the outer leds)
-digitalWrite(pins[i], HIGH); // switching the LED at index i on
-delay(100); // stopping the program for 100 milliseconds
-digitalWrite(pins[i], LOW); // switching the LED at index i off
+void setup() {<br>
+for (int i=0; i<pinsCount; i=i+1){ // counting the variable i from 0 to 9<br>
+pinMode(pins[i], OUTPUT); // initialising the pin at index i of the array of pins as OUTPUT<br>
+}<br>
+}<br>
+void loop() {<br>
+for (int i=0; i<pinsCount; i=i+1){ // chasing right<br>
+digitalWrite(pins[i], HIGH); // switching the LED at index i on<br>
+delay(100); // stopping the program for 100 milliseconds<br>
+digitalWrite(pins[i], LOW); // switching the LED at index i off<br>
+}<br>
+for (int i=pinsCount-1; i>0; i=i-1){ // chasing left (except the outer leds)<br>
+digitalWrite(pins[i], HIGH); // switching the LED at index i on<br>
+delay(100); // stopping the program for 100 milliseconds<br>
+digitalWrite(pins[i], LOW); // switching the LED at index i off<br>
 
-}
-}
+}<br>
+}<br>
 
