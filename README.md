@@ -82,7 +82,7 @@ https://wokwi.com/projects/335703061675639379<br>
  
  24.-DHT22+LCD(humidity sensor and temperature) <br>
 https://wokwi.com/projects/338154081559249491 <br>
-LAB LIST
+LAB LIST<br>
 1.https://wokwi.com/projects/338225981441442386 :-ESP32(LED/Buzzer)<br>
 2.https://wokwi.com/projects/338770823644971603 :-Arduino(LED/BUZZER)<br>
 
