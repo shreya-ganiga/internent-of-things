@@ -320,4 +320,7 @@ https://theiotprojects.com/iot-based-flood-monitoring-system-using-nodemcu-thing
 wifi<br>
 https://wokwi.com/projects/321525495180034642<br>
 
+** Seven segment LED display example**<br>
+https://wokwi.com/projects/342585434329580116<br>
+
 
