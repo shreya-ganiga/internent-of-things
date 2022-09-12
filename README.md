@@ -336,7 +336,7 @@ https://wokwi.com/projects/290056311044833800
 https://wokwi.com/projects/290043622233997832
 
 ** Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs Reference**
-https://wokwi.com/projects/342591566078018132
+https://wokwi.com/projects/342590852731765330
 
 
 
