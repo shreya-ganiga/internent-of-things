@@ -323,4 +323,10 @@ https://wokwi.com/projects/321525495180034642<br>
 ** Seven segment LED display example**<br>
 https://wokwi.com/projects/342585434329580116<br>
 
+**Analog Joystick with two axes (horizontal/vertical) and an integrated push button. Etch-a-sketch - A simple drawing game using a MAX7219 LED Dot Matrix Reference**<br>
+https://wokwi.com/projects/342586488460935764<br>
+
+
+
+
 
