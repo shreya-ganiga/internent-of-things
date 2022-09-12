@@ -326,7 +326,8 @@ https://wokwi.com/projects/342585434329580116<br>
 **Analog Joystick with two axes (horizontal/vertical) and an integrated push button. Etch-a-sketch - A simple drawing game using a MAX7219 LED Dot Matrix Reference**<br>
 https://wokwi.com/projects/342586488460935764<br>
 
-https://wokwi.com/projects/322410731508073042
+**DHT22 on the ESP32 Reference**<br>
+https://wokwi.com/projects/322410731508073042<br>
 
 
 
